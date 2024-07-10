@@ -1,0 +1,46 @@
+#products{
+    display:flex;
+}
+#topmenu span{
+    padding:12px;
+    margin-top:10px;
+    margin-left:8px;
+    font-family:sans-serif;
+
+
+}
+/* grid are used for arrange in the form of row and column */
+#collections{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    grid-gap:4px;
+}
+.avatar{
+    height:200px;
+    width:150px;
+
+}
+.innerbox{
+    display:flex;
+    justify-content:space-around;
+
+}
+#collections div{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+.strike{
+    color:#878787;
+    text-decoration: line-through ;
+    
+    /* padding-left:3px; */
+}
+
+.brand {
+ 
+    text-align:center;
+}
+
+.avatar{
+    margin-left:75px
+}
+
